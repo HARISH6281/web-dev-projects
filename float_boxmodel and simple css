@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalitha silks and readymades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .cloth{
+            margin:20px;
+            border:10px solid rgb(163, 110, 137);
+            padding:10px;
+            width:200px;
+            height:200px;
+            background-color: rgb(158, 176, 132);
+            text-align: justify;
+        }
+        #onebigbox{
+            border:10px solid black;
+            width:1050px;
+            height:1000px;
+            background-color: aqua;
+            margin:auto;
+        }
+
+        #shirts{
+            float:left;
+            width:40%;
+
+        }
+        #sarees{
+            float:left;
+            width:40%;
+
+        }
+        #kidswear{
+            float:left;
+            width:90%;
+
+        }
+        #suits{
+            float:left;
+            width:90%;
+
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div id="onebigbox">
+        <h3>Sri lalitha silks and Readymades</h3>
+        <div id="shirts" class="cloth">
+            <h3>we have shirts</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, cupiditate!
+            </p>
+        </div>
+        <div id="sarees" class="cloth">
+            <h3>we have sarees</h3>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quasi.           </p>
+        </div>
+        <div id="kidswear" class="cloth">
+            <h3>we have kidswear</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.            </p>
+        </div>
+        <div id="suits" class="cloth">
+            <h3>we have suits</h3>
+            <p>Lorem ipsum dolor </p>
+        </div>
+    </div>
+</body>
+</html>
