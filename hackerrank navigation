@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        .navbar{
+            background-color: rgb(71, 70, 70);
+        }
+        .navbar{
+            overflow: auto;
+        }
+        li{
+            float:left;
+            list-style: none;
+            margin:30px 10px;
+            
+        }
+        .navbar li a{
+            padding:2px 2px;
+            color:white;
+            text-decoration:none ;
+
+        }
+
+         #hack1{
+            font-style: italic;
+            font-size:30px ;
+        }
+        .fourbuttons{
+            font-size:20px ;
+            font-style:inherit ;
+            margin-left: 20px;
+        } 
+        #searchtab{
+            border-radius: 20px;
+            margin-left: 350px;
+            margin-top: 30px;
+        }
+        .sign{
+            margin-left: 80px;
+         
+    
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" id="hack1">HackerRank</a></li>
+                <li><a href="#"  class="fourbuttons">PREPARE</a></li>
+                <li><a href="#" class="fourbuttons">CERTIFY</a></li>
+                <li><a href="#" class="fourbuttons">COMPETE</a></li> 
+                <li><a href="#" class="hiring">Hiring Developers</a></li>
+                <li><a href="#" class="sign">Sign up</a></li> 
+                <div>
+                    <input type="text" id="searchtab" name="search" placeholder="search the hackrrank">
+                </div>      
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
