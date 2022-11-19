@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        .headblock{
+            margin:auto;
+            border:2px solid red;
+            width:1200px;
+        }
+        img{
+            height:100px;
+            width:100px;
+            display:block;
+            margin:auto;
+            
+            
+        }
+        h1{
+            margin:auto;
+            text-align: center;
+          
+           
+        }
+        .box{
+            color:blue;
+            background-color:azure;
+            border:3px solid red;
+            margin:4px 0px;
+            padding:20px;
+            display:inline-block;
+            width:33%;
+            box-sizing: border-box;
+        }
+        .container{
+            width:1200px;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="headblock">
+            <img src="http://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images.jpg" alt="bye">
+            <h1>my name is harish</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="box">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut necessitatibus alias, a praesentium dolor corrupti consequuntur omnis nobis quibusdam magni libero. Architecto ipsum, ea totam incidunt error id, ab asperiores, soluta dignissimos explicabo nam autem. Fuga pariatur iure laboriosam possimus error distinctio sapiente ipsum modi!
+            </p>
+        </div>
+        <div class="box">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut necessitatibus alias, a praesentium dolor corrupti consequuntur omnis nobis quibusdam magni libero. Architecto ipsum, ea totam incidunt error id, ab asperiores, soluta dignissimos explicabo nam autem. Fuga pariatur iure laboriosam possimus error distinctio sapiente ipsum modi!
+            </p>
+        </div>
+        <div class="box">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut necessitatibus alias, a praesentium dolor corrupti consequuntur omnis nobis quibusdam magni libero. Architecto ipsum, ea totam incidunt error id, ab asperiores, soluta dignissimos explicabo nam autem. Fuga pariatur iure laboriosam possimus error distinctio sapiente ipsum modi!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
